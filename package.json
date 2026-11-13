@@ -1,0 +1,41 @@
+{
+  "name": "proxy302",
+  "version": "0.1.0",
+  "description": "Official Proxy302 CLI: rotating residential, static ISP and datacenter proxies from the terminal. Get a proxy URL, rotate IPs, check balance and prices, buy and renew static IPs.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "proxy302": "bin/proxy302.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "proxy",
+    "proxy302",
+    "cli",
+    "residential-proxy",
+    "rotating-proxy",
+    "static-ip",
+    "isp-proxy",
+    "web-scraping"
+  ],
+  "homepage": "https://proxy302.com/developer-docs/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proxy302/proxy302-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/proxy302/proxy302-cli/issues"
+  }
+}
